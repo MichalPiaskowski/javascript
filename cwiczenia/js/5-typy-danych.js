@@ -47,8 +47,8 @@ tablicaLiczba = tablicaLiczba.sort((liczba1, liczba2) => {
     return liczba1 - liczba2
 });
 
-console.log(tablicaLiczba);
+// console.log(tablicaLiczba);
 // console.log(tablica.join('-')); łączy wszystkie elementy tablicy w stringa
-console.log(tablica.length);
+// console.log(tablica.length);
 
 console.log(tablica);

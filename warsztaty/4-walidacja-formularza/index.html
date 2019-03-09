@@ -10,18 +10,19 @@
 </head>
 
 <body>
-
-    <form>
-        <input type="text" value="" placeholder="Imię">
-        <p class="name"></p>
-        <input type="text" value="" placeholder="Nazwisko">
-        <p class="last-name"></p>
-        <input type="email" name="email" id="email" placeholder="Email">
-        <p class="email"></p>
-        <label for="zgoda">
-            <input type="checkbox" name="rodo" id="zgoda"> Wyrażam zgodę
-        </label>
+    <!-- Form Start-->
+    <form action="act">
+        <ul id="wiadomosc"></ul>
+        <label for="name">Imię i nazwisko</label><br />
+        <input type="text" id="name"><br />
+        <label for="email">Adres e-mail</label><br />
+        <input type="text" id="email"><br />
+        <input type="checkbox" id="zgoda-marketingowa-1"><label for="zgoda-marketingowa-1">Wyrażam zgodę pierwszą</label><br />
+        <input type="checkbox" id="zgoda-marketingowa-2"><label for="zgoda-marketingowa-2">Wyrażam zgodę drugą</label><br />
+        <input type="checkbox" id="wszystkie-zgody"><label for="wszystkie-zgody">Wyrażam wszytskie zgody</label><br />
+        <input type="submit" value="Wyslij" id="wyslij">
     </form>
+    <!-- Form Stop -->
     <script src="./js/main.js"></script>
 </body>
 
